@@ -1,0 +1,258 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+}
+.Disney img{
+    margin: 20px;
+    position: fixed;
+    line-height: 0px;
+    
+}
+.Disney button{
+    position: fixed;
+    color:#FFCC75;
+    background-color:#27231e ;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    z-index: 1000;
+}
+.arrow{
+    font-size: 20px;
+}
+.listIcon{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.listIcon ul li{
+    /* position: fixed;
+    gap: 20px; */
+}
+.listIcon ul li .user{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+}
+.listIcon ul li .search{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 50px;
+}
+.listIcon ul li .home{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 90px;
+}
+.listIcon ul li .tv{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 130px;
+}
+.listIcon ul li .movie{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 180px;
+}
+.listIcon ul li .sport{
+    position: fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 230px;
+}
+.listIcon ul li .categories{
+    position:fixed;
+    /* background-color: red; */
+    color: white;
+    border-radius: 50px;
+    padding: 5px 8px;
+    margin-top: 280px;
+}
+.listIcon ul li:hover{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+ .hanuman{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1%;
+ }
+ .hanuman .name img{
+    /* background-color: red; */
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 10%;
+ }
+ .name h3{
+    position: absolute;
+    margin-top: -51%;
+    color: blue;
+    margin-left: 10%;
+    font-size: 20px;
+ }
+ .name h5{
+    position: absolute;
+    margin-top: -48%;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+ }
+ .name p{
+    position: absolute;
+    margin-top: -45%;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+ }
+ 
+ .name h6{
+    position: absolute;
+    display: flex;
+    margin-top: -37%;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+ }
+ .subscribe{
+    display: flex;
+ }
+ .subscribe button{
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 10%;
+    padding: 13px 50px;
+    border-radius: 15px;
+    font-size: 20px;
+ }
+ .subscribe button:hover{
+    cursor: pointer;
+    font-size: 22px;
+ }
+ 
+ .page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+ }
+ .page2 h5{
+    position: absolute;
+    color: white;
+    margin-left: 9%;
+    margin-top: 4%;
+    font-size: 25px;
+    z-index: 1000;
+ }
+ .page2 .latestMovies{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 5%;
+ }
+ .page2 .latestMovies .hotshot img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 .latestMovies .reeta img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 .latestMovies .sarfira img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 .latestMovies .amazon img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 .latestMovies .starparivar img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 .latestMovies .las img{
+    width: 15vw;
+    margin-left: 25%;
+ }
+ .page2 h4{
+    position: absolute;
+    color: white;
+    margin-left: 5%;
+    margin-top: 31%;
+    font-size: 25px;
+ }
+ .page2 .sports{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 33%;
+    margin-left: 5%;
+ }
+ .page2 .sports .arsenal img{
+    width: 17vw;
+ }
+ .page2 .sports .falcons img{
+    width: 17vw;
+ }
+ .page2 .sports .yoddhas img{
+    width: 17vw;
+ }
+ .page2 .sports .AFG img{
+    margin-left: 18vw;
+    margin-top: -85%;
+    width: 17vw;
+ }
+ .sports .panthers img{
+   margin-left: 36vw;
+   margin-top: -40vh;
+ }
+ /* .page3{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   margin-top: 30vh;
+   margin-left: -60vw;
+   background-color: red;
+
+ } */
